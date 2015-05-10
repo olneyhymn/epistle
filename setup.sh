@@ -1,4 +1,5 @@
-virtualenv -p python3 ~/.virtualenvs/epistle
+conda create -n epistles python3
+source activate epistles
 pip install -r requirements.txt
 echo "use_env epistle" > .env
 echo "export S3_ACCESS_KEY=''" >> .env
