@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
-source .env
+source ${HOME}/repos/epistle/.env
 python make_feed.py
